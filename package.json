@@ -1,0 +1,27 @@
+{
+  "name": "final2-server",
+  "version": "1.0.0",
+  "description": "freelancer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rajkumar",
+  "license": "MIT",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.3",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.2",
+    "nodemon": "^3.1.10",
+    "set-cookie-parser": "^2.7.1",
+    "stripe": "^19.3.0"
+  }
+}

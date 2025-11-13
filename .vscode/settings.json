@@ -1,0 +1,9 @@
+{
+  "git.enabled": true,
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "git.allowForcePush": true,
+  "git.allowNoVerifyCommit": false,
+  "github.branchProtection": true,
+  "githubRepositories.autoFetch.enabled": true
+}
