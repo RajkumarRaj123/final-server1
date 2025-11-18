@@ -20,7 +20,8 @@ API_SERVER.use(cookieParser());
 
 API_SERVER.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://final-client3.netlify.app"],
+
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
   })
@@ -50,8 +51,8 @@ API_SERVER.use((err, req, res, next) => {
 
   return res.status(errorStatus).send(errorMessage);
 });
-
-API_SERVER.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+API_SERVER.listen(PORT, () => {
   console.log("server running");
   connect();
 });
