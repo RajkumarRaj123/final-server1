@@ -20,7 +20,7 @@ API_SERVER.use(cookieParser());
 
 API_SERVER.use(
   cors({
-    origin: ["http://localhost:5173", "https://final-client3.netlify.app"],
+    origin: ["http://localhost:5173", "https://final1-client.netlify.app"],
 
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
